@@ -1,6 +1,7 @@
 name = VDU Theme
-base theme = bootstrap
 description = Theme for VDU websites
 core = 7.x
+version = 7.x - 1.0.0-dev
+base theme = Bootstrap
 stylesheets[all][] = assets/css/style.css
 scripts[] = assets/js/scripts.js

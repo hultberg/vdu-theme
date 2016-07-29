@@ -1,0 +1,23 @@
+{
+  "name": "vdu-theme",
+  "version": "0.0.1",
+  "author": "hultberg",
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "node-sass": "^3.8.0",
+    "svg-sprite": "^1.3.3",
+    "webpack": "^1.13.1",
+    "svg4everybody": "^2.1.0"
+  },
+  "scripts": {
+    "build": "npm run sass && npm run svgsprite",
+    "sass": "node_modules/node-sass/bin/node-sass src/assets/sass/main.sass --recursive --output css assets/css/style.css",
+    "sass:watch": "npm run sass -- --watch",
+    "sass:prod": "npm run sass -- --output-style=compressed",
+    "webpack": "node node_modules/webpack/bin/webpack.js --config webpack.config.js src/assets/js/main.js assets/js/scripts.js",
+    "webpack:prod": "npm run webpack -- -p",
+    "svgsprite": "node node_modules/svg-sprite/bin/svg-sprite.js --dest=assets/ --css=false --symbol --symbol-inline=false --symbol-dest='./' src/assets/svg/*.svg"
+  }
+}

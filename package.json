@@ -14,7 +14,7 @@
     "webpack": "^1.13.1"
   },
   "scripts": {
-    "test": "sass-lint -c ./.sass-lint.yml -v -q && jslint src/assets/js/**/*.js",
+    "test": "sass-lint -c ./.sass-lint.yml -v -q && jslint --white src/assets/js/**/*.js",
     "build": "npm run sass:prod && npm run svgsprite && npm run webpack:prod",
     "watch": "npm run sass:watch && npm run webpack:watch",
     "sass": "node_modules/node-sass/bin/node-sass src/assets/sass/main.sass --recursive --output assets/css/",

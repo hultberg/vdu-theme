@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "6"
+  - "5.11"
+
+cache:
+  bundler: true
+  directories:
+  - node_modules # NPM packages
+
+before_install:
+  - "npm config set spin false"
+
+install:
+  - "npm install"
+  - "npm run build"

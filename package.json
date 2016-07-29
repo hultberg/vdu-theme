@@ -12,12 +12,12 @@
     "svg4everybody": "^2.1.0"
   },
   "scripts": {
-    "build": "npm run sass && npm run svgsprite",
-    "sass": "node_modules/node-sass/bin/node-sass src/assets/sass/main.sass --recursive --output css assets/css/style.css",
+    "build": "npm run sass && npm run svgsprite && npm run webpack",
+    "sass": "node_modules/node-sass/bin/node-sass src/assets/sass/main.sass --recursive --output assets/css/",
     "sass:watch": "npm run sass -- --watch",
     "sass:prod": "npm run sass -- --output-style=compressed",
     "webpack": "node node_modules/webpack/bin/webpack.js --config webpack.config.js src/assets/js/main.js assets/js/scripts.js",
     "webpack:prod": "npm run webpack -- -p",
-    "svgsprite": "node node_modules/svg-sprite/bin/svg-sprite.js --dest=assets/ --css=false --symbol --symbol-inline=false --symbol-dest='./' src/assets/svg/*.svg"
+    "svgsprite": "node node_modules/svg-sprite/bin/svg-sprite.js --dest=assets/ --symbol=true --symbol-sprite='svg/sprite.symbol.svg' --symbol-dest='./' src/assets/svg/*.svg"
   }
 }

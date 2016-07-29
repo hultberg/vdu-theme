@@ -1,0 +1,49 @@
+// Variables
+$projects-item-background: #bce6e9
+$project-height: 40px
+$project-opacity: 0.5
+$project-opacity-hover: 0.7
+
+// VDU Projects in header
+.vdu-projects
+  margin-top: 20px
+
+  // Each project
+  .project
+    a
+      background-color: $projects-item-background
+      border-radius: 4px
+      display: block
+      height: $project-height
+      line-height: $project-height
+      position: relative
+      overflow: hidden
+      padding-left: 10px
+
+      // Hover and focus in one.
+      &:hover, &:focus
+        cursor: pointer
+        background-color: darken($projects-item-background, 7%)
+
+        span.icon
+          opacity: $project-opacity-hover
+
+      span.icon
+        position: absolute
+        opacity: $project-opacity
+        -webkit-transform: rotate(15deg)
+        -moz-transform: rotate(15deg)
+        -ms-transform: rotate(15deg)
+        -o-transform: rotate(15deg)
+        transform: rotate(15deg)
+
+    // QuadCore custom
+    &.quadcore
+      a
+        span.icon
+          right: -27px
+          top: -18px
+
+        svg.icon
+          width: 140px
+          height: 89px

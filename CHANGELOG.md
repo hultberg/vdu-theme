@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.1.2
+
+* Fix colour on labels.
+
 ### 0.1.1
 
 * Added readme

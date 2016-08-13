@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.1.3
+
+* Add kodeklubben logo and title over projects
+
 ### 0.1.2
 
 * Fix colour on labels.

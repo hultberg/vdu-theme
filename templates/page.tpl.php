@@ -105,6 +105,8 @@ if (($domain != null) && (is_array($domain) == true)) {
 
       <div class="col-xs-12 col-lg-6 vdu-projects">
 
+        <h3 class="title"><a href="http://digitalungdom.no">VDUs prosjekter</a></h3>
+
         <div class="row">
           <div class="project quadcore col-xs-12 col-lg-6 col-lg-offset-6">
             <a href="https://quadcore.no" title="QuadCore">
@@ -113,6 +115,14 @@ if (($domain != null) && (is_array($domain) == true)) {
                 <svg class="icon">
                   <use xlink:href="/sites/all/themes/vdu_theme/assets/svg/sprite.symbol.svg#quadcore-logo"></use>
                 </svg>
+              </span>
+            </a>
+          </div>
+          <div class="project codeclub col-xs-12 col-lg-6 col-lg-offset-6">
+            <a href="https://www.digitalungdom.no/kodeklubben_tonsberg" title="Kodeklubben Tønsberg">
+              <span class="text">Kodeklubben</span>
+              <span class="icon">
+                <img alt="Kodeklubben Tønsberg" src="https://scontent.fsvg1-1.fna.fbcdn.net/v/t1.0-9/13138899_1085285001527794_2898337065539271796_n.png?oh=069702683ac17757198dca28b21df8b6&oe=58208BE8" />
               </span>
             </a>
           </div>

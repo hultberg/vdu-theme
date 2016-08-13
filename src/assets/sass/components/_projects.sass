@@ -10,6 +10,8 @@ $project-opacity-hover: 0.7
 
   // Each project
   .project
+    margin-bottom: 10px
+
     a
       background-color: $projects-item-background
       border-radius: 4px
@@ -31,19 +33,22 @@ $project-opacity-hover: 0.7
       span.icon
         position: absolute
         opacity: $project-opacity
+        right: -27px
+        top: -18px
         -webkit-transform: rotate(15deg)
         -moz-transform: rotate(15deg)
         -ms-transform: rotate(15deg)
         -o-transform: rotate(15deg)
         transform: rotate(15deg)
 
+        img, svg
+          width: 140px
+
+      img
+        height: auto
+
     // QuadCore custom
     &.quadcore
       a
-        span.icon
-          right: -27px
-          top: -18px
-
         svg.icon
-          width: 140px
           height: 89px

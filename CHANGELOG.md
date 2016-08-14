@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.1.4
+
+* :sparkles: Add vdu as project
+* :fire: Remove projects title
+
 ### 0.1.3
 
 * Add kodeklubben logo and title over projects

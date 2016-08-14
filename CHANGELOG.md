@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.1.4.1
+
+* Hotfix that stylesheet does not work
+
 ### 0.1.4
 
 * :sparkles: Add vdu as project

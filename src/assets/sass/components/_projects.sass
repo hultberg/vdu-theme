@@ -59,3 +59,25 @@ $project-opacity-hover: 0.7
       a
         svg.icon
           height: 89px
+
+    // VDU Custom
+    .vdu
+      a
+        background: none
+        border: 1px solid #bce6e9
+        text-align: center
+
+        &:hover, &:focus
+          a
+            border-color: darken($projects-item-background, 7%)
+
+        .icon
+          transform: none
+          top: 0
+          right: 0
+          position: relative
+          opacity: 1
+
+          svg
+            height: 39px
+            width: 100px

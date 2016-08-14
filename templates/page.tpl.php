@@ -108,6 +108,15 @@ if (($domain != null) && (is_array($domain) == true)) {
         <h3 class="title"><a href="http://digitalungdom.no">VDUs prosjekter</a></h3>
 
         <div class="row">
+          <div class="project vdu col-xs-12 col-lg-6 col-lg-offset-6">
+            <a href="https://digitalungdom.no" title="Vestfold Digitale Ungdom">
+              <span class="icon">
+                <svg class="icon">
+                  <use xlink:href="/sites/all/themes/vdu_theme/assets/svg/sprite.symbol.svg#VDU_Logo"></use>
+                </svg>
+              </span>
+            </a>
+          </div>
           <div class="project quadcore col-xs-12 col-lg-6 col-lg-offset-6">
             <a href="https://quadcore.no" title="QuadCore">
               <span class="text">QuadCore</span>

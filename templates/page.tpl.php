@@ -104,9 +104,6 @@ if (($domain != null) && (is_array($domain) == true)) {
       </div>
 
       <div class="col-xs-12 col-lg-6 vdu-projects">
-
-        <h3 class="title"><a href="http://digitalungdom.no">VDUs prosjekter</a></h3>
-
         <div class="row">
           <div class="project vdu col-xs-12 col-lg-6 col-lg-offset-6">
             <a href="https://digitalungdom.no" title="Vestfold Digitale Ungdom">

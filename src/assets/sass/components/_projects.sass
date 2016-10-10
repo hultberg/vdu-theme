@@ -22,7 +22,6 @@ $project-opacity-hover: 0.7
 
       span.facebook-like
         display: inline-block
-        position: relative
 
         iframe
           position: absolute
@@ -36,8 +35,12 @@ $project-opacity-hover: 0.7
 
         // Hover and focus in one.
         &:hover, &:focus
+          text-decoration: none
           cursor: pointer
           background-color: darken($projects-item-background, 7%)
+
+          span.text
+            text-decoration: underline
 
           span.icon
             opacity: $project-opacity-hover

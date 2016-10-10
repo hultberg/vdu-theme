@@ -132,12 +132,17 @@ if (($domain != null) && (is_array($domain) == true)) {
             </div>
           </div>
           <div class="project codeclub col-xs-12 col-lg-6 col-lg-offset-6">
-            <a href="https://www.digitalungdom.no/kodeklubben_tonsberg" title="Kodeklubben Tønsberg">
-              <span class="text">Kodeklubben</span>
-              <span class="icon">
-                <img alt="Kodeklubben Tønsberg" src="https://scontent.fsvg1-1.fna.fbcdn.net/v/t1.0-9/13138899_1085285001527794_2898337065539271796_n.png?oh=069702683ac17757198dca28b21df8b6&oe=58208BE8" />
-              </span>
-            </a>
+            <div class="project-box">
+              <a href="https://www.digitalungdom.no/kodeklubben_tonsberg" title="Kodeklubben Tønsberg">
+                <span class="text">Kodeklubben</span>
+                <span class="facebook-like">
+                  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKodeklubbenTonsberg%2F&width=55&layout=button&action=like&size=small&show_faces=false&share=false&height=65&appId=257464721317155" width="55" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </span>
+                <span class="icon">
+                  <img alt="Kodeklubben Tønsberg" src="https://scontent.fsvg1-1.fna.fbcdn.net/v/t1.0-9/13138899_1085285001527794_2898337065539271796_n.png?oh=069702683ac17757198dca28b21df8b6&oe=58208BE8" />
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

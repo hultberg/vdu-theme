@@ -106,25 +106,29 @@ if (($domain != null) && (is_array($domain) == true)) {
       <div class="col-xs-12 col-lg-6 vdu-projects">
         <div class="row">
           <div class="project vdu col-xs-12 col-lg-6 col-lg-offset-6">
-            <a href="https://digitalungdom.no" title="Vestfold Digitale Ungdom">
-              <span class="icon">
-                <svg class="icon">
-                  <use xlink:href="/sites/all/themes/vdu_theme/assets/svg/sprite.symbol.svg#VDU_Logo"></use>
-                </svg>
-              </span>
-            </a>
+            <div class="project-box">
+              <a href="https://digitalungdom.no" title="Vestfold Digitale Ungdom">
+                <span class="icon">
+                  <svg class="icon">
+                    <use xlink:href="/sites/all/themes/vdu_theme/assets/svg/sprite.symbol.svg#VDU_Logo"></use>
+                  </svg>
+                </span>
+              </a>
+            </div>
           </div>
           <div class="project quadcore col-xs-12 col-lg-6 col-lg-offset-6">
-            <a href="https://quadcore.no" title="QuadCore">
-              <span class="text">QuadCore</span>
-              <span class="icon">
-                <svg class="icon">
-                  <use xlink:href="/sites/all/themes/vdu_theme/assets/svg/sprite.symbol.svg#quadcore-logo"></use>
-                </svg>
-              </span>
-            </a>
-            <div class="facebook-like">
-              <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=55&layout=button&action=like&size=small&show_faces=false&share=false&height=65&appId=257464721317155" width="55" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <div class="project-box">
+              <a href="https://quadcore.no" title="QuadCore">
+                <span class="text">QuadCore</span>
+                <span class="icon">
+                  <svg class="icon">
+                    <use xlink:href="/sites/all/themes/vdu_theme/assets/svg/sprite.symbol.svg#quadcore-logo"></use>
+                  </svg>
+                </span>
+              </a>
+              <div class="facebook-like">
+                <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=55&layout=button&action=like&size=small&show_faces=false&share=false&height=65&appId=257464721317155" width="55" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+              </div>
             </div>
           </div>
           <div class="project codeclub col-xs-12 col-lg-6 col-lg-offset-6">

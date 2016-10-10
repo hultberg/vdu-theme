@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.0.0
+
+"First release"
+
 ### 0.1.4.1
 
 * Hotfix that stylesheet does not work

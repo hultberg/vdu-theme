@@ -4,23 +4,23 @@ Drupal sub-theme of bootstrap used on Vestfold Digitiale Ungdom (VDU) webpages.
 
 ## Installing
 
-````
+```
 ~/projects/vdu-theme/ $ npm install
-````
+```
 
 ## Build
 
 Run:
-````
+```
 ~/projects/vdu-theme/ $ npm run build
-````
+```
 
 ## Development
 
 When developing for the project, use the watch script to automagically compile sources on the fly:
-````
+```
 ~/projects/vdu-theme/ $ npm run watch
-````
+```
 
 Folder structure is as follows:
 * `assets/` - Dist and builded files for public use.

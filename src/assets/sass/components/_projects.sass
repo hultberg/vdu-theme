@@ -12,23 +12,38 @@ $project-opacity-hover: 0.7
   .project
     margin-bottom: 10px
 
-    a
+    &-box
       background-color: $projects-item-background
       border-radius: 4px
-      display: block
       height: $project-height
       line-height: $project-height
       position: relative
       overflow: hidden
-      padding-left: 10px
 
-      // Hover and focus in one.
-      &:hover, &:focus
-        cursor: pointer
-        background-color: darken($projects-item-background, 7%)
+      span.facebook-like
+        display: inline-block
 
-        span.icon
-          opacity: $project-opacity-hover
+        iframe
+          position: absolute
+          top: 50%
+          height: 20px
+          margin-top: -10px
+
+      a
+        display: block
+        padding-left: 10px
+
+        // Hover and focus in one.
+        &:hover, &:focus
+          text-decoration: none
+          cursor: pointer
+          background-color: darken($projects-item-background, 7%)
+
+          span.text
+            text-decoration: underline
+
+          span.icon
+            opacity: $project-opacity-hover
 
       span.icon
         position: absolute
@@ -55,13 +70,15 @@ $project-opacity-hover: 0.7
 
     // VDU Custom
     &.vdu
-      a
+      .project-box
         background: none
         border: 1px solid #bce6e9
         text-align: center
 
         &:hover, &:focus
           a
+            // Hmm... we must reset the bg again..
+            background: none
             border-color: darken($projects-item-background, 7%)
 
         .icon

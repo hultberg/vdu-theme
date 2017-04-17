@@ -4,13 +4,10 @@ node_js:
   - "5.11"
 
 cache:
-  bundler: true
+  yarn: true
   directories:
-  - node_modules # NPM packages
-
-before_install:
-  - "npm config set spin false"
+    - node_modules # NPM packages
 
 install:
-  - "npm install"
-  - "npm run build"
+  - "yarn install"
+  - "yarn run build"
